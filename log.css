@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.log{
+    text-transform: uppercase;
+    color: rgb(59, 108, 223);
+    text-align: center;
+    font-size: 50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    text-align: center;
+    text-shadow: 1px 1px 0px rgb(3, 28, 99);
+    color: aliceblue;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side {  
+   float: right;
+    padding: 2%;
+    margin: 0px;
+    background-color: rgb(59, 108, 223);
+    width: 500px;
+    height: 500px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid #d9e4f0; */
+    border-radius: 10px;  
+}
+.side h3{
+    /* padding-top:90px ; */
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    text-shadow: 2px 2px 0px rgb(20, 92, 152);
+    }
+.side img {
+    width: 431px;
+    height: 269px;
+    /* border-radius: 4px; */
+}
+body{
+font-size: 14px;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(231, 240, 248);
+}
+.user{
+    text-transform: capitalize;
+
+}
+.password{
+    text-transform: capitalize;
+}
+.btn{
+    font-size: 20px;
+   width: 100%;
+   height: 50px;
+   background-color:  rgb(59, 108, 223);
+   color: aliceblue;
+   text-align: center;
+   border: none;
+   border-radius: 8px;
+   margin-bottom: 15px;
+   cursor: pointer;
+  
+}
+.btn:active{
+    background-color: rgb(134, 178, 212);
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.remmber-forgot{
+    font-size: 15px;
+    color: rgb(59, 108, 223) ;
+    text-decoration: none;
+    margin: 10px 0;    
+}
+.remmber-forgot a {
+    color: rgb(59, 108, 223)  ;
+    text-decoration: none;
+}
+.remmber-forgot :hover{
+    text-decoration: underline;
+}
+.register-link {
+
+    font-size: 14.5px;
+    text-align: center;
+    margin: 1px 0 1px;
+}
+.inner-box{
+    box-shadow: 3px 3px 3px 3px silver;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d9e4f0;
+    border-radius: 10px;
+}
+
